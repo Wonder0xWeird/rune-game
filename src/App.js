@@ -39,8 +39,8 @@ const App = () => {
         <div className="connect-wallet-container">
           {!isConnected && <button className="cta-button connect-wallet-button" onClick={connectWallet}>Connect your Wallet</button>}
           <img
-            src="pixelwizbook.gif"
-            alt="Monty Python Gif"
+            src="/pixelwizbook.gif"
+            alt="Pizel Wiz Book"
           />
         </div>
       );
