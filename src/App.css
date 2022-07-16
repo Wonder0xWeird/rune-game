@@ -1,13 +1,25 @@
+/* COLORS */
+/*
+dark gold: #cc9c42
+light gold: #FFD369
+white: #EEEEEE
+light grey-darken: #282d35
+light grey: #393E46
+light grey-lighten: #4c5159
+bg grey: #222831
+shadow grey: #141921
+*/
+
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #222831;
   overflow: scroll;
   text-align: center;
 }
 
 .container {
   height: 100%;
-  background-color: #0d1116;
+  background-color: #222831;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,12 +33,12 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold;
-  color: white;
+  color: #eee;
 }
 
 .sub-text {
   font-size: 25px;
-  color: white;
+  color: #eee;
 }
 
 .content-container {
@@ -43,7 +55,7 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: #eee;
 }
 
 .connect-wallet-container {
@@ -60,15 +72,15 @@
 .connect-wallet-button {
   background-image: linear-gradient(
     to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #282d35 0%,
+    #393E46 21%,
+    #4c5159 52%
   );
   background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
+  animation: gradient-animation 6s ease infinite;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #cc9c42;
 }
 
 .mint-button {
@@ -83,7 +95,7 @@
 }
 
 .mint-count {
-  color: white;
+  color: #eee;
   font-size: 18px;
   font-weight: bold;
 }
@@ -101,7 +113,7 @@
 }
 
 .footer-text {
-  color: white;
+  color: #eee;
   font-size: 16px;
   font-weight: bold;
 }
