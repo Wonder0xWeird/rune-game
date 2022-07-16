@@ -40,7 +40,7 @@ const App = () => {
           {!isConnected && <button className="cta-button connect-wallet-button" onClick={connectWallet}>Connect your Wallet</button>}
           <img
             src="/pixelwizbook.gif"
-            alt="Pizel Wiz Book"
+            alt="Pixel Wiz Book"
           />
         </div>
       );
